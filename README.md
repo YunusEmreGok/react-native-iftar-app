@@ -1,1 +1,1 @@
-# react-native-iftar-app
+# React Native İftar Uygulaması
