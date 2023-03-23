@@ -10,7 +10,7 @@ export default function App() {
   const [remainingTime, setRemainingTime] = useState(null);
 
   useEffect(() => {
-    const _iftarTime = new Date(iftarTime).getTime();
+    const _iftarTime = Number(iftarTime);
     const interval = setInterval(() => {
       const now = Math.floor(Date.now() / 1000);
       const diffSeconds = _iftarTime - now;
